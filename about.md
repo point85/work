@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Information on the Point85 work schedule library and other projects.
 permalink: /about/
 ---
 <img src="../resources/images/WorkSchedule.jpg" alt="Work Schedule" style="width:50%; display: block; margin-left: auto; margin-right: auto;"> 

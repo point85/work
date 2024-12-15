@@ -1,7 +1,7 @@
 title: Point85 Work Schedule
 email: point85.llc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Work schedule with shifts and teams
+    Work schedule with shifts and teams (v1.0)
 author: Kent Randall
 baseurl: "/work" # the subpath of the site
 url: "" # the base hostname & protocol for the site
@@ -14,6 +14,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag  
+  - jekyll-sitemap
   
 include:
   - images

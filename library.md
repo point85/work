@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Library
+description: Discussion about how to use the work schedule library.
 permalink: /lib/
 ---
 <h3>DNO Schedule</h3>

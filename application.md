@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Application
+description: Discussion of a work schedule implementation.
 permalink: /app/
 ---
 A work schedule application has been built to demonstrate fundamental capabilities of the library.  The user interface is implemented in JavaFX 11 and database persistency is provided by JPA 2.2 (Java Persistence API) with FXML descriptors in the shift_orm.xml file. Hibernate is the JPA implementation for a supported relational database. The editor allows new schedules to be created and saved to the database as well as updated and deleted.
@@ -8,7 +9,7 @@ A work schedule application has been built to demonstrate fundamental capabiliti
 This screen capture shows shift instances for the month of June, 2017 with the DNO schedule selected.
 
 <img src="../resources/images/ShiftInstances.png" alt="Shift Instances" style="width:100%; display: block; margin-left: auto; margin-right: auto;">
-​
+
 To display shift instances, the steps are to:
 - Select the schedule in the drop-down, e.g. DNO Plan.  
 - Choose the beginning date from the picker and enter the beginning time of day (hour:minute)
@@ -18,7 +19,7 @@ To display shift instances, the steps are to:
 The "Editor ..." button launches the editor. This screen capture shows the work schedule editor.
 
 <img src="../resources/images/ShiftEditor.png" alt="Shift Editor" style="width:100%; display: block; margin-left: auto; margin-right: auto;">
-​
+
 To create a work schedule, click the "New" button and enter a name and description.
 
 Select the Shifts tab.  Click New and enter the shift information.  Click Add to create a shift.  To update a shift, select it in the table, edit the information and click Update.  Click Remove to delete it. For the Rotations, Teams and Non-working Periods, the steps are similar.

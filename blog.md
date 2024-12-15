@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+description: Posts about work schedule topics
 permalink: /blog/
 ---
 
